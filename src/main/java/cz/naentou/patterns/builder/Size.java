@@ -2,6 +2,9 @@ package cz.naentou.patterns.builder;
 
 import java.util.Objects;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class Size implements Cloneable {
     private String value;
 
@@ -20,7 +23,7 @@ public class Size implements Cloneable {
     @Override
     public Object clone() {
         try {
-            return (Size) super.clone();
+            return super.clone();
         } catch (CloneNotSupportedException e) {
             return new Size(this.getValue());
         }

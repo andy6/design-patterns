@@ -1,11 +1,13 @@
 package cz.naentou.patterns.command;
 
 /**
- * Receiver
+ * Receiver.
+ *
+ * @author Andy <borec(at)naentou.cz>
  */
 public class Document {
 
-    private String text = "";
+    private String text;
 
     public Document(String text) {
         this.text = text;

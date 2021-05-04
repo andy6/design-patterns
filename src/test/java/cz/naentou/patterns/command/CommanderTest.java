@@ -3,9 +3,11 @@ package cz.naentou.patterns.command;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class CommanderTest {
 
     private String initText;

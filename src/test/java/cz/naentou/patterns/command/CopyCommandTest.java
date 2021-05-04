@@ -3,9 +3,11 @@ package cz.naentou.patterns.command;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 class CopyCommandTest {
 
     private String text;

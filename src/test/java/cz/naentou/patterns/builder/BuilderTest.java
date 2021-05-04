@@ -4,9 +4,11 @@ import java.util.Set;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class BuilderTest {
     private Set<Size> originalSizeSet;
     private Product firstProduct;

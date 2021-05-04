@@ -3,6 +3,9 @@ package cz.naentou.patterns.command;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class CommandManager {
     private int index = 0;
     private final List<Command> stack = new ArrayList<>();

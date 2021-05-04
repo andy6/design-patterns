@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 /**
  * Product entity.
+ * @author Andy <borec(at)naentou.cz>
  */
 public class Product {
     private int id;

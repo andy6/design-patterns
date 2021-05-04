@@ -1,5 +1,8 @@
 package cz.naentou.patterns.command;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class PasteCommand implements Command {
 
     private final Document document;
