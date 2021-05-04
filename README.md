@@ -20,7 +20,9 @@ Examples of usage Design Patterns.
 1. Behavioral patterns
    1. Command pattern
       * It separates the object that invokes the operation from the object that actually performs the operation.
-      * Example shows simply implementation of Undo Redo commands.
+      * Example shows simple implementation of Undo Redo commands.
+   1. Observer pattern
+      * When one object changes state, all its dependents are notified and updated automatically.
 
 License
 ========
