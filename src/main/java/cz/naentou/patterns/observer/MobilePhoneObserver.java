@@ -1,5 +1,8 @@
 package cz.naentou.patterns.observer;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class MobilePhoneObserver extends Observer {
 
     public MobilePhoneObserver(Subject subject) {

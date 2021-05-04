@@ -1,5 +1,8 @@
 package cz.naentou.patterns.observer;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class ComputerObserver extends Observer {
 
     public ComputerObserver(Subject subject) {

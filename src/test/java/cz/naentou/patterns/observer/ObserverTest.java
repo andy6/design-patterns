@@ -3,9 +3,13 @@ package cz.naentou.patterns.observer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Creating and testing an Observer Design Pattern.
+ *
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class ObserverTest {
 
     private Subject subject;

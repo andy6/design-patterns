@@ -3,6 +3,8 @@ package cz.naentou.patterns.proxy;
 import org.junit.jupiter.api.Test;
 
 /**
+ * Creating and testing a Proxy Design Pattern.
+ *
  * @author Andy <borec(at)naentou.cz>
  */
 public class ProxyTest {

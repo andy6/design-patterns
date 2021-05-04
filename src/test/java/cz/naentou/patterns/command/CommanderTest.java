@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
+ * Creating and testing a Commander Design Pattern.
+ *
  * @author Andy <borec(at)naentou.cz>
  */
 public class CommanderTest {

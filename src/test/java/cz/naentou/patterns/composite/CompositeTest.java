@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
+ * Creating and testing a Composite Design Pattern.
+ *
  * @author Andy <borec(at)naentou.cz>
  */
 public class CompositeTest {

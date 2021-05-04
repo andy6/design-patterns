@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
+ * Creating and testing a Builder Design Pattern.
+ *
  * @author Andy <borec(at)naentou.cz>
  */
 public class BuilderTest {

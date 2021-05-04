@@ -3,6 +3,9 @@ package cz.naentou.patterns.observer;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Andy <borec(at)naentou.cz>
+ */
 public class Subject {
     private final List<Observer> observers = new ArrayList<>();
 
