@@ -14,7 +14,8 @@ public class ProxyTest {
         Image imageProxy3 = new ImageProxy("image3.jpg");
 
         // render the image only when it is required
-        imageProxy2.showImage();
+        imageProxy2.preview();
+        imageProxy2.thumbnail();
     }
 
     @Test
@@ -25,6 +26,7 @@ public class ProxyTest {
 
         // all of images were rendered
         // this solution is a waste of time and memory resources
-        imageLoader2.showImage();
+        imageLoader3.preview();
+        imageLoader3.thumbnail();
     }
 }

@@ -6,16 +6,27 @@ package cz.naentou.patterns.proxy;
 public class ImageProxy implements Image {
 
     private final String imageName;
+    private ImageLoader imageLoader;
 
     public ImageProxy(String imageName) {
         this.imageName = imageName;
-        System.out.println("Image '"+imageName+"' has not been loaded yet...");
     }
 
     @Override
-    public void showImage() {
+    public void preview() {
         // load and create image only when it is required
-        ImageLoader imageLoader = new ImageLoader(imageName);
-        imageLoader.showImage();
+        if (imageLoader == null) {
+            imageLoader = new ImageLoader(imageName);
+        }
+        imageLoader.preview();
+    }
+
+    @Override
+    public void thumbnail() {
+        // load and create image only when it is required
+        if (imageLoader == null) {
+            imageLoader = new ImageLoader(imageName);
+        }
+        imageLoader.thumbnail();
     }
 }

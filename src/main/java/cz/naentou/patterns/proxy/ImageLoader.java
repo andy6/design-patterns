@@ -14,11 +14,16 @@ public class ImageLoader implements Image {
     }
 
     private void loadImage() {
-        System.out.println("Please wait, image '"+imageName+"' is loading...");
+        System.out.println("[WAITING] Please wait, image '"+imageName+"' is loading...");
     }
 
     @Override
-    public void showImage() {
-        System.out.println("Rendering image '"+imageName+"'...");
+    public void preview() {
+        System.out.println("Creating preview of image '"+imageName+"'...");
+    }
+
+    @Override
+    public void thumbnail() {
+        System.out.println("Creating thumbnail of image '"+imageName+"'...");
     }
 }

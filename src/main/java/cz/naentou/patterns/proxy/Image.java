@@ -5,5 +5,7 @@ package cz.naentou.patterns.proxy;
  */
 public interface Image {
 
-    void showImage();
+    void preview();
+
+    void thumbnail();
 }
