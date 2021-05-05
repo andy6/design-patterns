@@ -12,7 +12,10 @@ Examples of usage Design Patterns.
    1. Composite pattern
       * It defines class hierarchies that contain primitive and complex objects.
       * There is a simple example of directory structure.
-      
+   
+   1. Decorator pattern (Wrapper pattern)
+      * It allows attaching a flexible additional responsibilities to an object dynamically.
+
    1. Proxy pattern
       * It allows creating objects only if it is required. 
       * There is a simple example of loading and rendering image.
